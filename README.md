@@ -8,6 +8,12 @@ We deploy an application (Apache Web Server) and also pick up code (JavaScript a
 
 ![diagram](./udagram-diagram.jpeg)
 
+We can deploy the app (in us-west-2 region) by running commands:
+
+```
+./create.sh udagram-infra udagram-infra.yml udagram-infra-parameters.json
+```
+
 ## Stack
 
 - AWS CloudFormation

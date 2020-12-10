@@ -12,6 +12,7 @@ We can deploy the app (in us-west-2 region) by running commands:
 
 ```
 ./create.sh udagram-infra udagram-infra.yml udagram-infra-parameters.json
+./create.sh udagram-server udagram-server.yml udagram-server-parameters.json
 ```
 
 ## Stack
